@@ -1,0 +1,123 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5e6d3;
+  color: #3b2f2f;
+  margin: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+h1, h2 {
+  border-bottom: 2px solid #a78b71;
+  padding-bottom: 5px;
+  color: #5c4033;
+}
+
+table {
+  width: 80%;
+  margin: 10px 0;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #cbb89d;
+  padding: 8px 12px;
+  background-color: #fffaf2;
+}
+
+img {
+  border-radius: 50%;
+  margin: 15px 0;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: right;
+}
+
+footer a {
+  color: #8b4513;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.contact-body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5e6d3;
+}
+ul{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto    ;
+}
+form {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    max-width: 400px;
+    width: 100%;
+    background: #fffaf2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(160, 120, 80, 0.15);
+    border: 1px solid #d9c4b0;
+}
+
+form label {
+    font-weight: bold;
+    color: #5c4033;
+    margin-top: 10px;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 2px 0 16px 0;
+    border: 1px solid #d9c4b0;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #f5e6d3;
+    box-sizing: border-box;
+}
+
+form button[type="submit"] {
+    background: #a78b71;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+    background: #8b4513;
+}
+
+.contacta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: #a78b71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 2px 8px rgba(160, 120, 80, 0.10);
+}
+
+.contacta:hover {
+    background: #8b4513;
+    color: #ffd7b5;
+}
+
+
